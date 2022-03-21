@@ -1,0 +1,29 @@
+<%- include("header")-%>
+
+    <div class="middle">
+        <h1 id="task">“Tasks”</h1>
+        <!--An HTML form is used to collect user input. The user input is most often sent to a server for processing.-->
+        <form action="/" method="post">
+            <ul>
+                <h1>Heading <input id="heading" name="n" type="text" placeholder="Heading......"></h1>
+                <h1>Create <textarea name="" id="text" cols="10" rows="10" placeholder="Create....."></textarea></h1>
+                <input type="image" src="plus.png" id="button" name="submit" width="50px" alt="submit">
+            </ul>
+        </form>
+    </div>
+    <div class="output">
+        <!--for adding more than iteams  use for loops -->
+        <% for(var i=0;i<newsListItem.length;i++){ %>
+            <form action="/" method="post">
+                <!--An HTML form is used to collect user input. The user input is most often sent to a server for processing.-->
+                <ul>
+                    <h1>
+                        <%=newsListItem[i] %>
+                    </h1>
+                    <button id="read">Read</button>
+                    <button id="update">Update</button>
+                    <button id="delete">Delete</button>
+                </ul>
+            </form>
+        <% } %>
+    </div>

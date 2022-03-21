@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(162, 178, 159);
+}
+.middle{
+    margin-left: 35%;
+    margin-top: 3%;
+    background-color: rgb(189, 210, 182) ;
+    width: 30%;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 5px 5px rgb(121, 135, 119);
+}
+#task{
+    color: rgb(93, 105, 91);
+    text-align: center;
+}
+.middle ul h1{
+    color: rgb(93, 105, 91);
+}
+#heading{
+    font-style: bold ;
+    font-size: 25px;
+    color: white;
+    padding-left: 10px;
+    margin-left: 15px;
+    border-radius: 5px;
+    border: 0;
+    width: 225px;
+    height: 40px;
+    background-color: rgba(93, 105, 91, 0.849);
+}
+#heading::placeholder{
+    color: rgba(255, 255, 255, 0.555);
+}
+#text{
+    font-style: bold ;
+    font-size: 30px;
+    color: white;
+    padding-left: 10px;
+    margin-left: 15px;
+    border-radius: 5px;
+    border: 0;
+    width: 250px;
+    height: 40px;
+    background-color: rgba(93, 105, 91, 0.849);
+}
+#text::placeholder {
+    color: rgba(255, 255, 255, 0.438);
+}
+.middle ul input{
+    margin-left: 300px;
+}
+.output ul{
+    margin-left: 2%;
+    margin-top: 9%;
+    background-color: rgb(189, 210, 182) ;
+    width: 30%;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 5px 5px rgb(121, 135, 119);
+}
+.output ul h1{
+    padding-top: 20px;
+    color: rgb(93, 105, 91) ;
+}
+.output ul button{
+    margin-top: 20px;
+    width: 30%;
+    height: 40px;
+    border: 0px;
+    border-radius: 20px;
+    background-color: rgb(119, 134, 116);
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+.output ul button:active{
+    background-color: rgb(95, 107, 93);
+}
+
